@@ -3,9 +3,9 @@
  "platform": "android",
  "releaseVersion": "v0.99-test",
  "releaseNumber": 99,
- "url": "https://raw.githubusercontent.com/luiluu/kyo-xiyou-update-qa/main/test-update.zip",
- "sha256": "5dca56bd875e58673cfb1f9b039a14a01b27f36c02275bfd52535bb6ab52658b",
- "bytes": 1182,
+ "url": "https://raw.githubusercontent.com/luiluu/kyo-xiyou-update-qa/main/tampered.zip",
+ "sha256": "d2371d5f449807b0726d0725f0757a8baba28a7c4dcb196155d957b99d1640e5",
+ "bytes": 1192,
  "minHostVersion": 1570119,
- "notes": "测试更新：验证联网下载、校验与安装，仅用于验收。"
+ "notes": "负向测试：签名被篡改，应拒绝安装。"
 }
